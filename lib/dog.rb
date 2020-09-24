@@ -1,7 +1,7 @@
 class Dog 
 
   def name(dogs_name)
-    @name=name
+    @name=dogs_name
   end
 
   def name
@@ -9,3 +9,5 @@ class Dog
   end 
 end 
 
+fido = Dog.new 
+fido.name="Fido"
